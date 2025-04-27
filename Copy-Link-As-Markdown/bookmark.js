@@ -1,0 +1,1 @@
+javascript: (async()=>{const o=function(){const o=window.location.href;return`[${document.title}](${o})`}();await async function(o){await navigator.clipboard.writeText(o).then((()=>{console.log("Copied to clipboard:",o)})).catch((o=>{console.error("Failed to copy to clipboard: ",o)}))}(o)})();
