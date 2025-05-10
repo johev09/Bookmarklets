@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bookmarklets</title>
+
+        <!-- Link to the external CSS file -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <h1>👋 Hi there! Welcome to my Bookmarklet shop 🛒 </h1>
+        <div id="bookmarklets">
+            <p>
+                This is a collection of handy bookmarklets for quick web tasks, hacks, and productivity boosts — no extensions required.
+            </p>
+            
+            <p>
+                Just drag and drop below links to your bookmark bar to
+                use them as bookmarklets:
+            </p>
+
+            <ul id="bookmarklets-ul" class="styled-list">
+                <!-- populated by js/render-bookmarklets.js -->
+            </ul>
+        </div>
+
+        <script src="js/render-bookmarklets.js"></script>
+    </body>
+</html>

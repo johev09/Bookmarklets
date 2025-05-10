@@ -1,0 +1,14 @@
+{
+    "bookmarklets": [
+        {
+            "name": "Force Paste",
+            "path": "Force-Paste",
+            "description": "Pastes content from clipboard to selected input even if paste is disabled."
+        },
+        {
+            "name": "Copy Link As Markdown",
+            "path": "./Copy-Link-As-Markdown",
+            "description": "Copies current tab title and link as link in markdown format."
+        }
+    ]
+}
