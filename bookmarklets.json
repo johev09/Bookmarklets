@@ -2,13 +2,18 @@
     "bookmarklets": [
         {
             "name": "Force Paste",
-            "path": "Force-Paste",
+            "path": "./bookmarklets/Force-Paste",
             "description": "Pastes content from clipboard to selected input even if paste is disabled."
         },
         {
             "name": "Copy Link As Markdown",
-            "path": "./Copy-Link-As-Markdown",
+            "path": "./bookmarklets/Copy-Link-As-Markdown",
             "description": "Copies current tab title and link as link in markdown format."
+        },
+        {
+            "name": "Copy Youtube URL at Current Time",
+            "path": "./bookmarklets/Copy-Youtube-URL-at-Current-Time",
+            "description": "One-click to trigger the context menu option to copy current Youtube URL with Current Time."
         }
     ]
 }
